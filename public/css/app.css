@@ -1,0 +1,217 @@
+.products-container .product {
+  margin-top: 1em;
+}
+
+.navbar {
+  margin-bottom: 0px !important;
+}
+
+.no-padding {
+  padding: 0px;
+}
+
+.large-padding {
+  padding: 1em 1.5em;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.big-padding {
+  padding: 30px;
+}
+
+.top-space {
+  margin-top: 1em;
+}
+
+.no-transform {
+  text-transform: none;
+}
+
+.table {
+  background-color: white;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.floating {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  z-index: 100;
+}
+
+.product {
+  width: 600px;
+  max-width: 100%;
+  padding: 1em;
+  position: relative;
+}
+
+.product h1 {
+  padding-bottom: 10px;
+  border-bottom: solid grey 1px;
+}
+
+.product .actions {
+  right: 1em;
+  top: 10px;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.circle-shopping-cart {
+  background-color: #232980;
+  border-radius: 50%;
+  padding: 1em 1em;
+}
+
+.product-avatar {
+  max-width: 100%;
+}
+
+.creado {
+  background-color: #d4e157;
+  padding: 3px;
+  border-radius: 10%;
+}
+
+.left-space {
+  margin-left: 1em;
+}
+
+.sales-data {
+  padding: 1em;
+  text-align: center;
+  border-right: solid 1px #222;
+  border-left: solid 1px #222;
+}
+
+.sales-data span {
+  display: block;
+  font-size: 2.2em;
+  color: #3f51b5;
+}
+
+.red {
+  background-color: #FC4349 !important;
+}
+
+.red-text {
+  color: #FC4349 !important;
+}
+
+.pink {
+  background-color: #E4004F !important;
+}
+
+.pink-text {
+  color: #E4004F !important;
+}
+
+.blue {
+  background-color: #2C3E50 !important;
+}
+
+.blue-text {
+  color: #2C3E50 !important;
+}
+
+.blue-grey {
+  background-color: #37474f !important;
+}
+
+.blue-grey-text {
+  color: #37474f !important;
+}
+
+.grey {
+  background-color: #D7DADB !important;
+}
+
+.grey-text {
+  color: #D7DADB !important;
+}
+
+.dark-grey {
+  background-color: #666 !important;
+}
+
+.dark-grey-text {
+  color: #666 !important;
+}
+
+.light-blue {
+  background-color: #6DBCDB !important;
+}
+
+.light-blue-text {
+  color: #6DBCDB !important;
+}
+
+.white {
+  background-color: #fff !important;
+}
+
+.white-text {
+  color: #fff !important;
+}
+
+.yellow {
+  background-color: #9ea641 !important;
+}
+
+.yellow-text {
+  color: #9ea641 !important;
+}
+
+.green {
+  background-color: #069803 !important;
+}
+
+.green-text {
+  color: #069803 !important;
+}
+
+.indigo {
+  background-color: #2F33AC !important;
+}
+
+.indigo-text {
+  color: #2F33AC !important;
+}
+
+.black {
+  background-color: #000 !important;
+}
+
+.black-text {
+  color: #000 !important;
+}
+
+@-webkit-keyframes highlight {
+  50% {
+    background-color: #ffff00;
+    color: black;
+  }
+  100% {
+    background-color: inherit;
+  }
+}
+
+.highlight {
+  -webkit-animation: highlight 1.5s;
+  animation: highlight 1.5s;
+}
+
+/*# sourceMappingURL=app.css.map */

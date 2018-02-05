@@ -1,0 +1,160 @@
+// Variables
+@import "variables";
+
+.products-container{
+    .product{
+        margin-top: 1em;
+    }
+}
+
+.navbar{
+  margin-bottom: 0px !important;
+}
+
+.no-padding{
+  padding:0px;
+}
+
+.large-padding{
+    padding: 1em 1.5em;
+}
+
+.no-margin{
+  margin: 0px;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.big-padding{
+  padding: 30px;
+}
+
+.top-space{
+    margin-top: 1em;
+}
+
+.no-transform{
+  text-transform: none;
+}
+
+
+
+
+.table{
+  background-color: white;
+}
+
+.absolute{
+  position: absolute;;
+}
+
+.floating{
+  position:fixed;
+  bottom: 2em;
+  right:2em;
+  z-index: 100;
+}
+
+.product{
+  width: 600px;
+  max-width: 100%;
+  padding: 1em;
+  position: relative;
+  h1{
+    padding-bottom: 10px;
+    border-bottom:solid grey 1px;
+  }
+  .actions{
+    right: 1em;
+    top: 10px;
+  }
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.circle-shopping-cart{
+    background-color: #232980;
+    border-radius: 50%;
+    padding: 1em 1em;
+}
+
+.product-avatar{
+    max-width: 100%
+}
+
+//status order
+
+.creado{
+    background-color: #d4e157;
+    padding: 3px;
+    border-radius: 10%;
+}
+
+//sales
+
+.left-space{
+    margin-left: 1em;
+}
+
+.sales-data{
+    padding: 1em;
+    text-align: center;
+    border-right: solid 1px #222;
+    border-left: solid 1px #222;
+    span{
+        display: block;
+        font-size: 2.2em;
+        color: #3f51b5;
+    }
+}
+
+//colors
+
+$colors : (
+    red: #FC4349,
+    pink: #E4004F,
+    blue: #2C3E50,
+    blue-grey: #37474f,
+    grey: #D7DADB,
+    dark-grey: #666,
+    light-blue: #6DBCDB,
+    white: #fff,
+    yellow: #9ea641,
+    green: #069803,
+    indigo: #2F33AC,
+    black: #000
+);
+
+@each $color_name, $color in $colors{
+    .#{$color_name}{
+        background-color: $color !important;
+    }
+
+    .#{$color_name}-text{
+        color: $color !important;
+    }
+}
+
+
+//animations
+
+@-webkit-keyframes highlight{
+    50%{
+        background-color: #ffff00;
+        color: black;
+    }
+    100%{
+        background-color: inherit;
+    }
+}
+
+//animation classes
+
+.highlight{
+    -webkit-animation: highlight 1.5s;
+    animation: highlight 1.5s;
+}
