@@ -21,7 +21,7 @@ class PaymentsController extends Controller
 
         $paypal = new Paypal($shopping_cart);
 
-        $response = $paypal->execute($request->paymentId, $request->PayerID);
+        $response = $paypal->execute($request->get('paymentId'), $request->PayerID);
 
 
         if ($response->state == "approved") {
