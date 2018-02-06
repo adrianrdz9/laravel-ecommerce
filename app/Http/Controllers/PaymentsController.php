@@ -15,12 +15,13 @@ class PaymentsController extends Controller
     }
 
     public function store(Request $request){
+        print($request);
         $shopping_cart = $request->shopping_cart;
 
         $paypal = new Paypal($shopping_cart);
 
         $response = $paypal->execute($request->paymentId, $request->PayerID);
-        print($request);
+
 
         if ($response->state == "approved") {
             \Session::remove("shopping_cart_id");
