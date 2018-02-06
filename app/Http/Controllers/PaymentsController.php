@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\ShoppingCart;
-use App\Paypal;
+use App\PayPal;
 use App\Order;
 
 class PaymentsController extends Controller
