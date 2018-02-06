@@ -17,6 +17,7 @@ class PaymentsController extends Controller
     public function store(Request $request){
         print($request->get('paymentId'));
         print($request->paymentId);
+        print($requets->input());
         $shopping_cart = $request->shopping_cart;
 
         $paypal = new Paypal($shopping_cart);
